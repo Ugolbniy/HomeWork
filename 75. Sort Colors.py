@@ -10,10 +10,4 @@ class Solution:
                 mid += 1
             else:
                 nums[mid], nums[high] = nums[high], nums[mid]
-                high -= 1
-
-if __name__ == "__main__":
-    sol = Solution()
-    nums = [2, 0, 2, 1, 1, 0]
-    sol.sortColors(nums)
-    print(nums)
+                high -= 
